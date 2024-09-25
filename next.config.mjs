@@ -17,12 +17,6 @@ const nextConfig = {
     // number of pages that should be kept simultaneously without being disposed
     pagesBufferLength: 2,
   },
-  // Enable detailed logging for CSS processing
-  experimental: {
-    logging: {
-      level: 'verbose',
-    },
-  },
 };
 
 export default nextConfig;
